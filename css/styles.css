@@ -1,0 +1,306 @@
+/* =====================================================
+   SPAE MVP
+   Sistema Profesional de Autoría de Evaluaciones
+   ===================================================== */
+
+
+/* =====================================================
+   CONFIGURACIÓN GENERAL
+   ===================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #f5f7fa;
+    color: #1f2937;
+
+}
+
+
+/* =====================================================
+   CABECERA
+   ===================================================== */
+
+header {
+
+    background-color: #ffffff;
+
+    padding: 32px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #dddddd;
+
+}
+
+
+header h1 {
+
+    margin: 0;
+
+    font-size: 2rem;
+
+}
+
+
+header p {
+
+    margin-top: 8px;
+
+    color: #6b7280;
+
+}
+
+
+/* =====================================================
+   CONTENEDOR PRINCIPAL
+   ===================================================== */
+
+main {
+
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    padding: 24px;
+
+}
+
+
+#content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 24px;
+
+}
+
+
+/* =====================================================
+   TARJETAS DE CONTENIDO
+   ===================================================== */
+
+.card {
+
+    background-color: #ffffff;
+
+    padding: 24px;
+
+    border-radius: 12px;
+
+    border: 1px solid #e5e7eb;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+}
+
+
+.card h2 {
+
+    margin-top: 0;
+
+    margin-bottom: 24px;
+
+}
+
+
+/* =====================================================
+   FORMULARIOS
+   ===================================================== */
+
+.form-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-bottom: 20px;
+
+}
+
+
+label {
+
+    margin-bottom: 8px;
+
+    font-weight: 600;
+
+}
+
+
+input,
+textarea,
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 8px;
+
+    font-size: 1rem;
+
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+
+    outline: none;
+
+    border-color: #2563eb;
+
+}
+
+
+/* =====================================================
+   BOTONES
+   ===================================================== */
+
+button {
+
+    cursor: pointer;
+
+    padding: 12px 20px;
+
+    font-size: 1rem;
+
+    border: none;
+
+    border-radius: 8px;
+
+    margin-top: 8px;
+
+}
+
+
+.primary-button {
+
+    background-color: #2563eb;
+
+    color: white;
+
+}
+
+
+.primary-button:hover {
+
+    opacity: 0.90;
+
+}
+
+
+.secondary-button {
+
+    background-color: #374151;
+
+    color: white;
+
+}
+
+
+.secondary-button:hover {
+
+    opacity: 0.90;
+
+}
+
+
+/* =====================================================
+   RESÚMENES
+   ===================================================== */
+
+.summary {
+
+    margin-top: 24px;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    background-color: #f9fafb;
+
+    border: 1px solid #e5e7eb;
+
+}
+
+
+.summary h3 {
+
+    margin-top: 0;
+
+}
+
+
+.summary p {
+
+    margin: 8px 0;
+
+}
+
+
+/* =====================================================
+   MENSAJES DEL SISTEMA
+   ===================================================== */
+
+.notice {
+
+    padding: 16px;
+
+    border-radius: 8px;
+
+    background-color: #eef2ff;
+
+    border: 1px solid #c7d2fe;
+
+}
+
+
+.notice p {
+
+    margin: 0;
+
+}
+
+
+/* =====================================================
+   RESPONSIVE
+   ===================================================== */
+
+@media (max-width: 768px) {
+
+    header {
+
+        padding: 24px;
+
+    }
+
+
+    main {
+
+        padding: 16px;
+
+    }
+
+
+    .card {
+
+        padding: 18px;
+
+    }
+
+}

@@ -1,0 +1,453 @@
+[
+  {
+    "id": "ADAPTABILIDAD-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Un coordinador de operaciones en una empresa de logística nota que, tras la implementación de un nuevo sistema de ruteo por GPS, los conductores siguen anotando las rutas a mano en libretas porque confían más en su método tradicional. El coordinador decide ajustar su plan de trabajo, organizando sesiones individuales en ruta para acompañar a los choferes y modificar gradualmente su rutina diaria hasta lograr el uso del aplicativo. ¿Qué dimensión de la competencia de adaptabilidad está ejerciendo principalmente el coordinador al modificar sus comportamientos tácticos ante este entorno?",
+    "alternativas": [
+      "Flexibilidad cognitiva, porque está cambiando de perspectiva teórica sobre la tecnología.",
+      "Acción estratégica, porque está modificando sus comportamientos directivos reales para responder y ajustarse al nuevo entorno operativo.",
+      "Resiliencia emocional, porque está conteniendo la frustración de los gerentes corporativos.",
+      "Reestructuración incremental, porque modifica el software informático de la empresa."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Aplica las dimensiones de la adaptabilidad para resolver problemas de gestión táctica en las organizaciones.",
+    "competencia": "Liderazgo y Gestión de Personas",
+    "criterios": "Diferencia la Acción Estratégica frente a Flexibilidad Cognitiva y Resiliencia Emocional en escenarios de cambio organizacional.",
+    "retroalimentacion": "La respuesta correcta es B porque la Acción Estratégica implica modificar comportamientos concretos para responder al entorno cambiante. Las demás opciones corresponden a procesos cognitivos, emocionales o técnicos diferentes."
+  },
+
+  {
+    "id": "VUCA-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Una empresa financiera observa que las regulaciones del mercado cambian constantemente y que sus equipos deben ajustar procesos cada pocos meses para cumplir nuevas exigencias legales. El gerente general solicita identificar qué característica del entorno VUCA representa principalmente esta situación.",
+    "alternativas": [
+      "Volatilidad, porque los precios cambian rápidamente.",
+      "Incertidumbre, porque existe dificultad para anticipar con precisión futuros escenarios.",
+      "Complejidad, porque existen múltiples variables relacionadas entre sí.",
+      "Ambigüedad, porque existen interpretaciones contradictorias."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Analiza las características de los entornos VUCA para interpretar desafíos organizacionales.",
+    "competencia": "Gestión Estratégica",
+    "criterios": "Distingue incertidumbre frente a otras dimensiones del modelo VUCA.",
+    "retroalimentacion": "La respuesta correcta es B porque la incertidumbre aparece cuando resulta difícil anticipar qué ocurrirá debido a cambios futuros no previsibles."
+  },
+
+  {
+    "id": "MOTIVACION-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Una jefa de área identifica que un colaborador busca asumir proyectos complejos, recibir retroalimentación constante y demostrar resultados superiores frente a sus compañeros. Según la teoría de necesidades adquiridas de McClelland, ¿qué necesidad predomina en este colaborador?",
+    "alternativas": [
+      "Necesidad de afiliación.",
+      "Necesidad de poder.",
+      "Necesidad de logro.",
+      "Necesidad de seguridad."
+    ],
+    "respuestaCorrecta": "C",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Aplica teorías motivacionales para interpretar comportamientos laborales.",
+    "competencia": "Gestión de Personas",
+    "criterios": "Relaciona conductas observables con necesidades motivacionales.",
+    "retroalimentacion": "La respuesta correcta es C porque la necesidad de logro se relaciona con alcanzar metas exigentes, superar estándares y buscar excelencia."
+  },
+
+  {
+    "id": "CAMBIO-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Una organización implementará un nuevo sistema digital después de diez años usando procesos manuales. Antes de ejecutar el cambio, el gerente identifica factores que impulsan la transformación y factores que generan resistencia en los colaboradores. ¿Qué herramienta está utilizando?",
+    "alternativas": [
+      "Matriz FODA.",
+      "Análisis de campos de fuerzas.",
+      "Mapa estratégico.",
+      "Matriz de decisiones."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Aplica herramientas de gestión del cambio para intervenir en organizaciones.",
+    "competencia": "Gestión del Cambio Organizacional",
+    "criterios": "Identifica herramientas utilizadas para analizar fuerzas impulsoras y restrictivas.",
+    "retroalimentacion": "La respuesta correcta es B porque el análisis de campos de fuerzas permite identificar factores que favorecen o dificultan un cambio."
+  },
+
+  {
+    "id": "ESCUCHA-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Durante una reunión, un supervisor interrumpe constantemente a su equipo y responde antes de escuchar completamente las propuestas. El gerente recomienda desarrollar una competencia interpersonal para mejorar la comunicación. ¿Cuál corresponde principalmente?",
+    "alternativas": [
+      "Escucha activa.",
+      "Delegación operativa.",
+      "Control administrativo.",
+      "Negociación contractual."
+    ],
+    "respuestaCorrecta": "A",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Aplica habilidades comunicacionales para fortalecer relaciones organizacionales.",
+    "competencia": "Comunicación Organizacional",
+    "criterios": "Reconoce comportamientos asociados a escucha activa.",
+    "retroalimentacion": "La respuesta correcta es A porque escuchar activamente implica atención, comprensión y respuesta adecuada al interlocutor."
+  },
+
+  {
+    "id": "LIDERAZGO-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Un líder adapta su estilo de dirección según la experiencia, autonomía y necesidades de cada integrante del equipo. ¿Qué enfoque de liderazgo está aplicando?",
+    "alternativas": [
+      "Liderazgo autoritario permanente.",
+      "Liderazgo situacional.",
+      "Liderazgo basado únicamente en recompensas.",
+      "Liderazgo burocrático."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Analiza estilos de liderazgo según características del equipo.",
+    "competencia": "Liderazgo Organizacional",
+    "criterios": "Relaciona estilos de liderazgo con condiciones del colaborador.",
+    "retroalimentacion": "La respuesta correcta es B porque el liderazgo situacional adapta la conducta del líder según la situación y madurez del equipo."
+  },
+
+  {
+    "id": "EMOCIONES-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Un gerente recibe información negativa sobre resultados trimestrales y decide esperar antes de tomar decisiones impulsivas, analizando los datos y regulando su reacción emocional. ¿Qué competencia demuestra?",
+    "alternativas": [
+      "Inteligencia emocional.",
+      "Centralización administrativa.",
+      "Control jerárquico.",
+      "Especialización técnica."
+    ],
+    "respuestaCorrecta": "A",
+    "nivelCognitivo": "EVALUAR",
+    "resultadoAprendizaje": "Evalúa el papel de las emociones en procesos de decisión organizacional.",
+    "competencia": "Inteligencia Emocional",
+    "criterios": "Diferencia regulación emocional de control administrativo.",
+    "retroalimentacion": "La respuesta correcta es A porque la inteligencia emocional implica reconocer y gestionar emociones antes de actuar."
+  },
+
+  {
+    "id": "CULTURA-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Una empresa mantiene prácticas tradicionales porque sus colaboradores consideran que 'siempre se ha hecho así'. El nuevo gerente busca modificar creencias y hábitos compartidos. ¿Qué elemento organizacional debe transformar principalmente?",
+    "alternativas": [
+      "La estructura física.",
+      "La cultura organizacional.",
+      "El sistema contable.",
+      "La infraestructura tecnológica."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Analiza elementos culturales que influyen en el comportamiento organizacional.",
+    "competencia": "Cultura Organizacional",
+    "criterios": "Identifica la influencia de valores y creencias compartidas.",
+    "retroalimentacion": "La respuesta correcta es B porque la cultura está formada por valores, creencias y prácticas compartidas."
+  },
+
+  {
+    "id": "TECNOLOGIA-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Una organización incorpora inteligencia artificial para automatizar tareas repetitivas, pero decide capacitar previamente a sus colaboradores para asumir funciones de mayor análisis y decisión. ¿Qué enfoque representa esta acción?",
+    "alternativas": [
+      "Sustitución completa del trabajador.",
+      "Adaptación organizacional frente a transformación tecnológica.",
+      "Eliminación de procesos humanos.",
+      "Reducción inmediata de personal."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "EVALUAR",
+    "resultadoAprendizaje": "Evalúa impactos organizacionales derivados de nuevas tecnologías.",
+    "competencia": "Transformación Digital",
+    "criterios": "Distingue automatización de reemplazo total del talento humano.",
+    "retroalimentacion": "La respuesta correcta es B porque la transformación digital requiere adaptación de personas, procesos y capacidades."
+  },
+
+  {
+    "id": "EQUIPOS-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Un equipo presenta conflictos porque sus integrantes tienen objetivos individuales diferentes y poca coordinación. El líder decide establecer metas comunes y espacios de colaboración. ¿Qué aspecto está fortaleciendo?",
+    "alternativas": [
+      "Trabajo en equipo.",
+      "Competencia individual.",
+      "Control jerárquico.",
+      "Especialización técnica."
+    ],
+    "respuestaCorrecta": "A",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Aplica prácticas de gestión para mejorar la colaboración organizacional.",
+    "competencia": "Gestión de Equipos",
+    "criterios": "Reconoce acciones asociadas al trabajo colaborativo.",
+    "retroalimentacion": "La respuesta correcta es A porque establecer objetivos comunes y coordinación fortalece el trabajo en equipo."
+  },
+
+  {
+    "id": "EQUIPOS-001-B",
+    "tipo": "opcion_multiple",
+    "contenido": "Un equipo presenta conflictos porque sus integrantes tienen objetivos individuales diferentes y poca coordinación. El líder decide establecer metas comunes y espacios de colaboración. ¿Qué aspecto está fortaleciendo?",
+    "alternativas": [
+      "Trabajo en equipo.",
+      "Competencia individual.",
+      "Control jerárquico.",
+      "Especialización técnica."
+    ],
+    "respuestaCorrecta": "A",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Aplica prácticas de gestión para mejorar la colaboración organizacional.",
+    "competencia": "Gestión de Equipos",
+    "criterios": "Reconoce acciones asociadas al trabajo colaborativo.",
+    "retroalimentacion": "La respuesta correcta es A porque establecer objetivos comunes y coordinación fortalece el trabajo en equipo."
+  },
+
+  {
+    "id": "ADAPTABILIDAD-002",
+    "tipo": "opcion_multiple",
+    "contenido": "El Gerente de Operaciones de una cadena de supermercados detecta que, debido al crecimiento acelerado de las aplicaciones de delivery, las ventas en tienda física cayeron un 25%. En lugar de insistir en promociones tradicionales en pasillo, reconfigura el área física para instalar 'zonas de preparación rápida' y reasigna al personal de cajas a la gestión de pedidos digitales. De acuerdo con las dimensiones de la adaptabilidad, ¿qué dimensión describe prioritariamente la decisión ejecutada por el gerente?",
+    "alternativas": [
+      "Flexibilidad cognitiva, al asimilar intelectualmente la caída del flujo de clientes en la tienda física.",
+      "Acción estratégica, dado que modificó sus comportamientos operativos y ajustó la ejecución táctica para responder al nuevo entorno.",
+      "Resiliencia emocional, al sobreponerse al impacto psicológico generado por la pérdida de ingresos en el canal tradicional.",
+      "Fuerza interna de innovación, pues el cambio surgió como una iniciativa directiva aislada de presiones competitivas."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Diferencia las dimensiones de adaptabilidad directiva aplicadas a la toma de decisiones operativas.",
+    "competencia": "Liderazgo y Gestión de Personas",
+    "criterios": "Distingue la reconfiguración conductual y táctica (Acción Estratégica) frente a la flexibilidad cognitiva y la resiliencia emocional.",
+    "retroalimentacion": "La respuesta correcta es B. El material define la 'Acción Estratégica' como la capacidad de ajustar comportamientos y modificar ejecuciones concretas en respuesta al entorno. El gerente reestructuró la operación. La alternativa A aborda solo la parte intelectual/conceptual (flexibilidad cognitiva); la C aborda la regulación del estrés personal (resiliencia emocional); y la D confunde un estímulo externo de mercado con una fuerza interna aislada."
+  },
+  {
+    "id": "RESISTENCIA-002",
+    "tipo": "opcion_multiple",
+    "contenido": "Durante la implementación de un software unificado de compras en una empresa multilatina, los compradores locales generan retrasos deliberados en el registro de proveedores. Al indagarse la causa, manifiestan que el sistema centraliza las aprobaciones en la casa matriz, retirándoles la autonomía para negociar directamente con proveedores regionales de confianza. Considerando los componentes de la resistencia al cambio, ¿cuál es la causa raíz de la fricción relacional en este escenario?",
+    "alternativas": [
+      "Un componente puramente afectivo provocado por la ansiedad técnica de interactuar con la interfaz del software.",
+      "Una fuerza externa de mercado originada por la presión comercial de los proveedores locales excluidos.",
+      "Un componente de resultados esperados que genera la percepción de pérdida de poder, prestigio y autonomía gerencial.",
+      "Una falla de flexibilidad cognitiva individual corregible mediante talleres intensivos de capacitación tecnológica."
+    ],
+    "respuestaCorrecta": "C",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Identifica los factores estructurales y relacionales que activan la resistencia al cambio en mandos medios.",
+    "competencia": "Gestión del Cambio Organizacional",
+    "criterios": "Reconoce cómo la percepción de pérdida de poder y autonomía actúa como detonante de la resistencia organizacional.",
+    "retroalimentacion": "La respuesta correcta es C. El material especifica que la resistencia surge cuando los resultados esperados del cambio amenazan la percepción de poder, autonomía o prestigio de los involucrados. Los compradores se resisten porque la centralización atenta contra su capacidad de negociación. La A no aplica porque el reclamo no es técnico sino de control; la B altera los hechos del caso; y la D propone una solución de habilidades duras ante un conflicto de diseño organizacional."
+  },
+  {
+    "id": "TIPOSCAMBIO-003",
+    "tipo": "opcion_multiple",
+    "contenido": "Una empresa de servicios logísticos descubre que un nuevo competidor transnacional ingresará al mercado operando exclusivamente vehículos eléctricos. Ante la inminencia de este riesgo, la junta directiva cancela la compra anual de camiones diésel y convoca a un comité de crisis para transformar el modelo operativo hacia contratos de leasing ecológico en un plazo de 6 meses. ¿Cómo se clasifica este proceso de cambio?",
+    "alternativas": [
+      "Cambio planeado e incremental, orientado a la optimización gradual del mantenimiento vehicular existente.",
+      "Cambio no planeado y radical, al reaccionar de forma inmediata a un choque competitivo e impactar estructuralmente el modelo de negocio.",
+      "Cambio planeado y de transformación digital, originado por un plan interno de innovación sostenible.",
+      "Cambio no planeado e incremental, impulsado por adecuaciones regulatorias de carácter normativo estatal."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Clasifica las intervenciones organizacionales según su origen (planeado/no planeado) y alcance (incremental/radical).",
+    "competencia": "Gestión del Cambio Organizacional",
+    "criterios": "Diferencia la reacción inmediata ante disrupciones externas (no planeado) de las reestructuraciones profundas del modelo de negocio (radical).",
+    "retroalimentacion": "La respuesta correcta es B. Es 'no planeado' porque responde a una irrupción no contemplada del competidor, y es 'radical' (transformacional) porque altera el modelo básico de activos y abastecimiento de la empresa en un tiempo crítico. La A y D se equivocan al calificarlo como incremental (mejora continua), y la C afirma erróneamente que fue un plan de innovación interna previa."
+  },
+  {
+    "id": "GESTIONRESISTENCIA-004",
+    "tipo": "opcion_multiple",
+    "contenido": "El Director de un centro de servicios compartidos enfrenta un clima laboral tenso tras anunciar la implementación de auditorías automatizadas de procesos. Para mitigar la resistencia y restablecer el equilibrio relacional según los lineamientos del material, ¿cuál es la acción estratégica idónea?",
+    "alternativas": [
+      "Ignorar los reclamos del personal para prevenir que el componente afectivo contamine a otras unidades operativas.",
+      "Modificar los indicadores del software para satisfacer de inmediato las exigencias conductuales del equipo inconforme.",
+      "Rediseñar la estrategia comunicacional para asegurar flujo informativo permanente en todas las etapas del cambio y resguardar la confianza mutua.",
+      "Reemplazar a los líderes informales de opinión por profesionales externos con alta adaptabilidad demostrada."
+    ],
+    "respuestaCorrecta": "C",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Selecciona mecanismos de gestión relacional para mitigar la resistencia organizacional.",
+    "competencia": "Comunicación Organizacional",
+    "criterios": "Aplica los principios de comunicación continua y construcción de confianza en procesos de cambio.",
+    "retroalimentacion": "La respuesta correcta es C. El material destaca tres pilares para abordar la resistencia: mantener la confianza mutua, comunicar de forma continua durante todo el proceso y reinterpretar los actos de los receptores. La A, B y D vulneran la negociación política y erosionan la confianza en las relaciones organizacionales."
+  },
+  {
+    "id": "NEGOCIACION-005",
+    "tipo": "opcion_multiple",
+    "contenido": "Un Gerente de Operaciones busca implementar un sistema estandarizado de evaluación de desempeño. Sabiendo que una imposición autocrática activará fuerzas limitantes infranqueables en los jefes de área, ¿qué acción refleja una estrategia de 'Descongelamiento' mediante una 'Coalición Ascendente'?",
+    "alternativas": [
+      "Explicar individualmente a cada jefe de área las ventajas técnicas y metodológicas del nuevo instrumento.",
+      "Suspender definitivamente el proyecto para evitar roces políticos o desgaste relacional en la organización.",
+      "Construir una alianza estratégica con el Gerente Comercial, demostrándole mediante un prototipo rápido que los retrasos operativos afectan a clientes clave, activando una fuerza impulsora transversal.",
+      "Evaluar a los colaboradores de manera encubierta sin informar a los jefes de área para no generar disputas de poder."
+    ],
+    "respuestaCorrecta": "C",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Aplica tácticas de negociación política y formación de coaliciones para desbloquear procesos de cambio.",
+    "competencia": "Negociación y Diagnóstico Relacional",
+    "criterios": "Identifica el rol del 'padrino político' y el uso de presiones impulsoras transversales para lograr el descongelamiento.",
+    "retroalimentacion": "La respuesta correcta es C. Cuando las fuerzas limitantes en un área son rígidas, la estrategia política efectiva consiste en sumar un 'padrino político' de otra área impactada (como Comercial) para inyectar una fuerza impulsora legítima que propicie el descongelamiento. La A ignora el factor político; la B abandona el objetivo estratégico; y la D degrada la confianza organizacional mediante acciones clandestinas."
+  },
+  {
+    "id": "ADAPTABILIDAD-003",
+    "tipo": "opcion_multiple",
+    "contenido": "Un Gerente Regional de Banca Corporativa proyectaba un plan de expansión física para el siguiente año. Sin embargo, tras la promulgación abrupta de una ley de inclusión financiera digital, comprende que su marco conceptual previo es obsoleto y decide reevaluar integralmente sus premisas de negocio para integrar modelos de banca abierta. ¿Qué dimensión de la adaptabilidad demuestra el gerente en su fase inicial?",
+    "alternativas": [
+      "Flexibilidad cognitiva, al abandonar la rigidez de su marco mental técnico inicial e incorporar nuevas perspectivas del entorno.",
+      "Resiliencia emocional, al suprimir totalmente la frustración de su equipo de trabajo.",
+      "Acción estratégica, al realizar la compra masiva de infraestructura tecnológica.",
+      "Reestructuración incremental, al solicitar una prórroga para el cumplimiento regulatorio."
+    ],
+    "respuestaCorrecta": "A",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Diferencia el procesamiento mental y la capacidad de aprendizaje directivo frente a la ejecución táctica.",
+    "competencia": "Liderazgo y Gestión de Personas",
+    "criterios": "Reconoce la Flexibilidad Cognitiva como la apertura mental para reestructurar supuestos y conceptos.",
+    "retroalimentacion": "La respuesta correcta es A. La 'Flexibilidad Cognitiva' radica en la capacidad del líder para reconocer la obsolescencia de sus esquemas mentales previos y asimilar nuevas realidades conceptuales. La B refiere al manejo del estrés; la C refiere a ejecuciones conductuales directas (Acción Estratégica); y la D es una táctica dilatoria de gestión."
+  },
+  {
+    "id": "ADAPTABILIDAD-004",
+    "tipo": "opcion_multiple",
+    "contenido": "En una planta industrial, el anuncio de automatización de la línea de ensamblaje genera protestas y un ambiente de alta fricción entre la gerencia y el sindicato. El Gerente de Planta mantiene la templanza, absorbe la tensión sin reaccionar de forma autocrática y encausa las reuniones hacia un diálogo constructivo. ¿Qué dimensión de adaptabilidad destaca en su perfil?",
+    "alternativas": [
+      "Flexibilidad cognitiva, al modificar el software de automatización.",
+      "Resiliencia emocional, al tolerar y encausar el estrés, la incertidumbre y la fricción relacional que genera el proceso.",
+      "Acción estratégica, al delegar la solución del conflicto al área de Recursos Humanos.",
+      "Descongelamiento pasivo, al permitir que el tiempo disipe el descontento de los trabajadores."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Evalúa el manejo directivo de las emociones organizacionales en momentos de alta tensión.",
+    "competencia": "Inteligencia Emocional",
+    "criterios": "Identifica la Resiliencia Emocional como la contención del estrés y la regulación de la fricción interpersonal.",
+    "retroalimentacion": "La respuesta correcta es B. La 'Resiliencia Emocional' se manifiesta en la capacidad del líder para mantenerse sereno, procesar la presión del entorno y canalizar constructivamente los conflictos relacionales sin caer en respuestas defensivas o autoritarias. La A confunde lo cognitivo con lo afectivo; la C evade la responsabilidad directiva; y la D agrava la crisis."
+  },
+  {
+    "id": "FUERZAS-008",
+    "tipo": "opcion_multiple",
+    "contenido": "Una cadena farmacéutica enfrenta una combinación de factores: por un lado, una nueva regulación gubernamental fija techos a los márgenes de ganancia; por otro, el sistema informático interno de inventarios presenta fallas continuas que impiden conocer el stock real. ¿Cómo se categorizan correctamente ambos estímulos en la gestión del cambio?",
+    "alternativas": [
+      "La regulación gubernamental es una fuerza externa de cambio y las fallas del sistema informático constituyen una fuerza interna.",
+      "Ambos estímulos representan fuerzas externas de mercado al estar vinculados con la venta de medicamentos.",
+      "La regulación estatal es una fuerza interna de cumplimiento y la falla de software es un componente afectivo.",
+      "Las fallas del sistema son fuerzas impulsoras externas y la norma gubernamental es una limitante interna."
+    ],
+    "respuestaCorrecta": "A",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Distingue el origen micro y macro entorno de los factores de cambio organizacional.",
+    "competencia": "Gestión del Cambio Organizacional",
+    "criterios": "Diferencia las presiones del entorno regulatorio/mercado (externas) de los problemas de capacidad/procesos (internos)."
+  },
+  {
+    "id": "TIPOSCAMBIO-009",
+    "tipo": "opcion_multiple",
+    "contenido": "Una empresa procesadora de alimentos diseña un plan quinquenal de calidad para certificar sus plantas bajo normas ISO. El proceso contempla capacitaciones trimestrales, ajustes progresivos en manuales y revisiones periódicas sin alterar la estructura organizativa básica. ¿Qué tipo de cambio se está ejecutando?",
+    "alternativas": [
+      "Cambio no planeado y radical.",
+      "Cambio planeado e incremental, caracterizado por intervenciones evolutivas y programadas dentro del marco operativo existente.",
+      "Cambio no planeado e incremental.",
+      "Cambio de transformación abrupta con descongelamiento político."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Reconoce las características de los procesos de mejora continua e incrementalismo estructurado.",
+    "competencia": "Gestión del Cambio Organizacional",
+    "criterios": "Identifica la planificación previa y el ajuste progresivo como elementos del cambio incremental."
+  },
+  {
+    "id": "MITIGACION-010",
+    "tipo": "opcion_multiple",
+    "contenido": "El Director de Tecnología de una firma planea reemplazar el ERP obsoleto de la compañía. Consciente del temor de la Gerencia General a interrupciones en la facturación, propone mantener el sistema antiguo en paralelo durante tres meses mientras se realizan pruebas piloto en un área secundaria. ¿Qué principio gerencial está aplicando?",
+    "alternativas": [
+      "Reestructuración radical autocrática.",
+      "Mitigación de riesgo operativo mediante la estrategia del 'doble esfuerzo' o convivencia paralela temporizada.",
+      "Coalición ascendente por veto gerencial.",
+      "Flexibilidad cognitiva pasiva sin intervención directiva."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Aplica estrategias de reducción de riesgo para suavizar las fuerzas limitantes organizacionales.",
+    "competencia": "Gestión del Cambio Organizacional",
+    "criterios": "Reconoce la operación paralela temporizada como mecanismo técnico-político para mitigar temores de continuidad operativa."
+  },
+
+  {
+    "id": "LEWIN-001",
+    "tipo": "opcion_multiple",
+    "contenido": "Un Gerente Operativo de un banco detecta que el personal de plataforma se niega a migrar al nuevo sistema de turnos digitales, argumentando que el sistema manual funcionaba 'sin errores' desde hace diez años. Para iniciar la fase de Descongelamiento según Kurt Lewin, ¿cuál de las siguientes acciones representa la intervención gerencial correcta para desequilibrar el statu quo sin destruir la gobernabilidad relacional?",
+    "alternativas": [
+      "Sancionar administrativamente a los ejecutivos que utilicen hojas físicas para forzar el cumplimiento del nuevo procedimiento.",
+      "Presentar informes consolidados que demuestren cómo las demoras del sistema manual provocaron la pérdida de un 15% de clientes el trimestre pasado, evidenciando la necesidad imperiosa del cambio.",
+      "Capacitar intensivamente al personal en el manejo técnico de la interfaz del software para asegurar el dominio de las nuevas herramientas.",
+      "Documentar el proceso digital en el manual de procedimientos operativos y fijar nuevos KPI de cumplimiento obligatorio."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Aplica la etapa de Descongelamiento del modelo de Lewin mediante la sensibilización de fuerzas impulsoras en escenarios de resistencia.",
+    "competencia": "Gestión del Cambio y Adaptabilidad Organizacional",
+    "criterios": "Diferencia las acciones de sensibilización/descongelamiento de las acciones de imposición o de recongelamiento normativo.",
+    "retroalimentacion": "La respuesta correcta es B. El 'Descongelamiento' busca romper el statu quo mostrando las ineficiencias del estado actual para reducir las fuerzas resistentes. La primera opción incrementa las fuerzas limitantes por la vía del poder autocrático; la tercera pertenece a la etapa de Cambio/Movimiento (adquisición de destrezas); y la cuarta pertenece a la etapa de Recongelamiento (institucionalización normativa)."
+  },
+  {
+    "id": "LEWIN-002",
+    "tipo": "opcion_multiple",
+    "contenido": "En una planta embotelladora, el Gerente de Planta desea reducir los tiempos de parada de línea. El análisis de Campo de Fuerzas revela que las Fuerzas Impulsoras (presión de la junta directiva por mayor producción) y las Fuerzas Resistentes (temor de los técnicos a perder sus bonos por errores en la nueva configuración) están en un estado de equilibrio estático. Según Kurt Lewin, ¿cuál es la estrategia gerencial más efectiva para lograr el movimiento sostenido hacia el nuevo estado deseado?",
+    "alternativas": [
+      "Aumentar drásticamente la presión de la junta directiva intensificando las supervisiones diarias en la planta.",
+      "Eliminar o reducir la fuerza resistente renegociando temporalmente la estructura de bonos para que las fallas durante la curva de aprendizaje no penalicen el ingreso de los técnicos.",
+      "Implementar de inmediato la fase de Recongelamiento para consolidar las metas de producción fijadas por la dirección.",
+      "Reemplazar al equipo de técnicos por personal externo con competencias ya desarrolladas."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Analiza las dinámicas del Análisis del Campo de Fuerzas para tomar decisiones estratégicas de descongelamiento y gestión del cambio.",
+    "competencia": "Toma de Decisiones y Diagnóstico Organizacional",
+    "criterios": "Identifica que la reducción de las fuerzas resistentes genera un cambio sostenido con menor fricción relacional que el incremento desmedido de las fuerzas impulsoras.",
+    "retroalimentacion": "La respuesta correcta es B. Lewin postula que aumentar las fuerzas impulsoras (primera opción) eleva la tensión y la resistencia del sistema; en cambio, mitigar o eliminar una fuerza resistente (reducir el temor económico) permite que el sistema fluya de forma natural hacia el cambio. Las demás opciones ignoran la dinámica del equilibrio de fuerzas o agravan la fricción organizacional."
+  },
+  {
+    "id": "LEWIN-003",
+    "tipo": "opcion_multiple",
+    "contenido": "Una empresa multilatina de consumo masivo se encuentra en la fase de 'Cambio o Movimiento' tras reestructurar sus canales de distribución. Durante esta etapa, el Subgerente de Logística nota que los supervisores regionales están confundidos con los nuevos flujos de aprobación y muestran ansiedad ante el margen de error. ¿Qué acción directiva corresponde propiamente a esta etapa del modelo de Lewin?",
+    "alternativas": [
+      "Comunicar los resultados de la crisis comercial que motivó la reestructuración del canal para evitar que el equipo vuelva al pasado.",
+      "Ofrecer acompañamiento continuo, retroalimentación constante y talleres prácticos para guiar al personal en el aprendizaje de las nuevas conductas y procesos.",
+      "Vincular formalmente la evaluación de desempeño anual a la ejecución estricta del nuevo modelo logístico.",
+      "Modificar los estatutos organizacionales en el sistema corporativo para dar por concluido el proyecto."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "APLICAR",
+    "resultadoAprendizaje": "Determina las intervenciones gerenciales requeridas durante la fase de Cambio o Movimiento para facilitar la adopción de nuevas conductas.",
+    "competencia": "Liderazgo y Gestión de Personas",
+    "criterios": "Diferencia la fase de Movimiento (desarrollo de nuevas conductas y procesos) frente a las etapas previa (Descongelamiento) y posterior (Recongelamiento).",
+    "retroalimentacion": "La respuesta correcta es B. La fase de 'Cambio o Movimiento' es donde las personas adoptan las nuevas formas de trabajar; requiere liderazgo facilitador, capacitación y soporte. La primera opción es una acción típica de Descongelamiento (crear conciencia de la necesidad); mientras que las dos últimas opciones son mecanismos de Recongelamiento (fijación e institucionalización)."
+  },
+  {
+    "id": "LEWIN-004",
+    "tipo": "opcion_multiple",
+    "contenido": "Tras un año de haber transformado el proceso de atención al cliente en una cadena retail, la Directora de Operaciones advierte que, si bien el personal aprendió las nuevas rutinas digitales, algunos locales están regresando paulatinamente al uso de carpetas físicas debido a la rotación de personal. Según el modelo de Lewin, ¿qué fallo de gestión cometió la gerencia?",
+    "alternativas": [
+      "Omitió realizar un diagnóstico de Fuerzas Impulsoras antes de iniciar la transformación.",
+      "Falló en consolidar la fase de Recongelamiento al no institucionalizar las nuevas prácticas dentro de los procesos formales de inducción, recompensas y cultura organizacional.",
+      "Ejecutó una estrategia de cambio incremental en lugar de un cambio radical no planeado.",
+      "Mostró una excesiva resiliencia emocional ante las fallas del equipo operativo."
+    ],
+    "respuestaCorrecta": "B",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Evalúa los riesgos de no institucionalizar el cambio en la fase de Recongelamiento dentro de la cultura organizacional.",
+    "competencia": "Gestión Estratégica y Sostenibilidad Organizacional",
+    "criterios": "Identifica la regresión al statu quo como consecuencia de una etapa de Recongelamiento incompleta o defectuosa.",
+    "retroalimentacion": "La respuesta correcta es B. El 'Recongelamiento' busca anclar y estabilizar los nuevos comportamientos en la cultura organizacional para evitar la regresión al viejo estado. Si no se ajustan los programas de inducción para nuevos empleados y los sistemas de incentivos, el cambio se diluye. Las demás alternativas distorsionan la causa del problema o aplican erróneamente conceptos no pertinentes al caso."
+  },
+  {
+    "id": "LEWIN-005",
+    "tipo": "opcion_multiple",
+    "contenido": "Un Gerente General desea implementar una política de trabajo híbrido en su firma de consultoría. Durante la etapa de diagnóstico, identifica dos grupos: los Jefes de Proyecto (quienes apoyan la medida porque mejora la atracción de talento) y la Gerencia de Administración (que se opone firmemente por el temor a perder el control sobre el horario de los consultores). Desde el enfoque del Campo de Fuerzas de Lewin, ¿cómo se clasifican las posturas de ambos grupos para la formulación del plan estratégico?",
+    "alternativas": [
+      "Los Jefes de Proyecto constituyen una Fuerza Impulsora, mientras que la Gerencia de Administración actúa como una Fuerza Resistente que requiere ser gestionada mediante diálogo y ajustes en las métricas de control.",
+      "Ambas posturas son Fuerzas Impulsoras que compiten en el nivel de descongelamiento de la junta directiva.",
+      "La Gerencia de Administración representa un proceso de Recongelamiento prematuro y los Jefes de Proyecto una Flexibilidad Cognitiva aislada.",
+      "La postura de la Gerencia de Administración es un componente afectivo no gestionable que debe abordarse mediante despidos."
+    ],
+    "respuestaCorrecta": "A",
+    "nivelCognitivo": "ANALIZAR",
+    "resultadoAprendizaje": "Clasifica los actores y posturas organizacionales como fuerzas impulsoras o resistentes dentro del modelo de cambio de Lewin.",
+    "competencia": "Diagnóstico Relacional y Negociación Política",
+    "criterios": "Categoriza adecuadamente las fuerzas que impulsan vs. las fuerzas que bloquean el cambio y propone su abordaje desde la gestión estratégica.",
+    "retroalimentacion": "La respuesta correcta es A. El modelo de Lewin clasifica los factores que empujan hacia el cambio como Fuerzas Impulsoras (Jefes de Proyecto) y los que lo frenan o mantienen el statu quo como Fuerzas Resistentes (Administración). La labor gerencial es articular estas fuerzas. Las demás opciones distorsionan la clasificación teórica del modelo y sugieren acciones contrarias a la gestión relacional sustentable."
+  }
+]

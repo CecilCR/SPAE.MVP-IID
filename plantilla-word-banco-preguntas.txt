@@ -1,0 +1,76 @@
+PLANTILLA PARA IMPORTAR PREGUNTAS DESDE WORD - SPAE MVP
+=========================================================
+
+INSTRUCCIONES:
+
+1. Copie y pegue este contenido en un documento Word nuevo (.docx).
+2. Duplique el bloque "===PREGUNTA=== ... ===FIN===" tantas veces
+   como preguntas quiera agregar.
+3. Complete cada campo en su propia línea/párrafo. No una dos
+   campos en el mismo párrafo.
+4. Guarde el archivo como .docx (no .doc antiguo).
+5. En el panel "7. Banco de preguntas" de SPAE, use el botón
+   "Importar desde Word (.docx con plantilla SPAE)" y seleccione
+   este archivo.
+
+TIPOS DE PREGUNTA VÁLIDOS:
+  opcion_multiple | caso_analisis | caso_aplicacion | abierta
+
+NIVELES COGNITIVOS VÁLIDOS (Bloom):
+  RECORDAR | COMPRENDER | APLICAR | ANALIZAR | EVALUAR | CREAR
+
+
+---------------------------------------------------------
+EJEMPLO 1: PREGUNTA DE OPCIÓN MÚLTIPLE
+---------------------------------------------------------
+
+===PREGUNTA===
+TIPO: opcion_multiple
+ENUNCIADO: Escriba aquí el enunciado completo de la pregunta.
+A) Texto de la alternativa A
+B) Texto de la alternativa B
+C) Texto de la alternativa C
+D) Texto de la alternativa D
+RESPUESTA: B
+NIVEL: APLICAR
+RESULTADO: Resultado de aprendizaje que evalúa esta pregunta.
+COMPETENCIA: Nombre de la competencia asociada.
+RETROALIMENTACION: Explicación de por qué la respuesta correcta lo es.
+===FIN===
+
+
+---------------------------------------------------------
+EJEMPLO 2: CASO DE ANÁLISIS, CASO DE APLICACIÓN O ABIERTA
+---------------------------------------------------------
+
+===PREGUNTA===
+TIPO: caso_analisis
+CONTEXTO: Describa aquí la situación o caso profesional.
+PREGUNTA: Escriba aquí la instrucción o pregunta sobre el caso.
+NIVEL: ANALIZAR
+RESULTADO: Resultado de aprendizaje asociado.
+COMPETENCIA: Nombre de la competencia asociada.
+RESPUESTA_ESPERADA: Descripción de la respuesta esperada del estudiante.
+CRITERIOS: Criterios de evaluación / rúbrica breve.
+RETROALIMENTACION: Retroalimentación general sobre el caso.
+===FIN===
+
+
+---------------------------------------------------------
+AGREGUE SUS PROPIAS PREGUNTAS A CONTINUACIÓN
+(duplique el bloque que necesite)
+---------------------------------------------------------
+
+===PREGUNTA===
+TIPO:
+ENUNCIADO:
+A)
+B)
+C)
+D)
+RESPUESTA:
+NIVEL:
+RESULTADO:
+COMPETENCIA:
+RETROALIMENTACION:
+===FIN===
