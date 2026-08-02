@@ -1649,307 +1649,243 @@ BLUEPRINT DE EVALUACIÓN
 
 
 /* =====================================================
-   ACTUALIZAR BLUEPRINT
+ /* =====================================================
+   SPAE MVP - MÓDULO BLUEPRINT AVANZADO v2.0
+   
+   SUSTITUYE COMPLETAMENTE a las funciones actualizarBlueprint()
+   y renderBlueprint() del archivo app.js.
+   
+   - Mantiene los conteos clásicos (preguntasMCQ, casos, abiertas)
+   - AÑADE una matriz de alineamiento Tipo vs. Nivel Cognitivo
+   - Inyecta estilos automáticamente (no requiere modificar styles.css)
 ===================================================== */
 
+/**
+ * ACTUALIZAR BLUEPRINT
+ * Extiende el objeto SPAE.blueprint con los conteos clásicos
+ * y una nueva matriz cruzada (Tipo vs Nivel Cognitivo).
+ */
+function actualizarBlueprint() {
 
-function actualizarBlueprint(){
-
-
-    if(!SPAE.blueprint){
-
-
+    // --- 1. Inicialización segura ---
+    if (!SPAE.blueprint) {
         SPAE.blueprint = {
-
-            preguntasMCQ:0,
-
-            casos:0,
-
-            abiertas:0
-
+            preguntasMCQ: 0,
+            casos: 0,
+            abiertas: 0
         };
-
-
     }
 
-
-
-    if(!Array.isArray(SPAE.preguntas)){
-
-
+    if (!Array.isArray(SPAE.preguntas)) {
         SPAE.preguntas = [];
-
-
     }
 
-
-
-
-    SPAE.blueprint.preguntasMCQ =
-
-    SPAE.preguntas.filter(
-
-        p =>
-
-        p.tipo === "opcion_multiple"
-
+    // --- 2. Conteos clásicos (IDÉNTICOS A LOS ORIGINALES) ---
+    SPAE.blueprint.preguntasMCQ = SPAE.preguntas.filter(
+        p => p.tipo === "opcion_multiple"
     ).length;
 
-
-
-
-
-    SPAE.blueprint.casos =
-
-    SPAE.preguntas.filter(
-
-        p =>
-
-        p.tipo === "caso_analisis"
-
-        ||
-
-        p.tipo === "caso_aplicacion"
-
+    SPAE.blueprint.casos = SPAE.preguntas.filter(
+        p => p.tipo === "caso_analisis" || p.tipo === "caso_aplicacion"
     ).length;
 
-
-
-
-
-
-
-    SPAE.blueprint.abiertas =
-
-    SPAE.preguntas.filter(
-
-        p =>
-
-        p.tipo === "abierta"
-
-        ||
-
-        p.tipo === "pregunta_abierta"
-
+    SPAE.blueprint.abiertas = SPAE.preguntas.filter(
+        p => p.tipo === "abierta" || p.tipo === "pregunta_abierta"
     ).length;
 
+    // --- 3. NUEVA MATRIZ CRUZADA (Tipo vs Nivel) ---
+    const nivelesBloom = ["RECORDAR", "COMPRENDER", "APLICAR", "ANALIZAR", "EVALUAR", "CREAR"];
+    const tiposValidos = ["opcion_multiple", "caso_analisis", "caso_aplicacion", "abierta"];
 
+    // Inicializar la matriz con ceros
+    let matriz = {};
+    tiposValidos.forEach(tipo => {
+        matriz[tipo] = {};
+        nivelesBloom.forEach(nivel => {
+            matriz[tipo][nivel] = 0;
+        });
+    });
 
+    // Llenar la matriz recorriendo las preguntas
+    SPAE.preguntas.forEach(p => {
+        let tipo = p.tipo || "abierta";
+        let nivel = (p.nivelCognitivo || "RECORDAR").toUpperCase();
 
+        // Normalizar nivel si no está en la lista de Bloom
+        if (!nivelesBloom.includes(nivel)) {
+            nivel = "ANALIZAR"; // valor por defecto para que no se pierda
+        }
 
+        // Si el tipo está dentro de los válidos, incrementamos
+        if (matriz[tipo] && matriz[tipo][nivel] !== undefined) {
+            matriz[tipo][nivel]++;
+        }
+    });
 
+    // Guardar la matriz en el estado global
+    SPAE.blueprint.matrizNivelTipo = matriz;
 
+    // --- 4. Persistir cambios ---
     guardarSPAE();
-
-
-
 }
 
+/**
+ * RENDER BLUEPRINT
+ * Genera la interfaz completa del módulo 4.
+ * Incluye el resumen clásico (para no romper nada) y la nueva tabla.
+ * Los estilos de la tabla se inyectan automáticamente.
+ */
+function renderBlueprint() {
 
+    // --- 1. Inyectar estilos CSS de la tabla (solo una vez) ---
+    if (!document.getElementById('spae-blueprint-styles')) {
+        const style = document.createElement('style');
+        style.id = 'spae-blueprint-styles';
+        style.textContent = `
+            /* Estilos para la matriz de Blueprint */
+            .tabla-blueprint {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 12px;
+                font-size: 0.9rem;
+            }
+            .tabla-blueprint th,
+            .tabla-blueprint td {
+                border: 1px solid #d1d5db;
+                padding: 8px 6px;
+                text-align: center;
+            }
+            .tabla-blueprint thead th {
+                background-color: #f3f4f6;
+                font-weight: 700;
+                color: #1f2937;
+            }
+            .tabla-blueprint tbody tr:hover {
+                background-color: #f9fafb;
+            }
+            .tabla-blueprint .fila-total {
+                background-color: #eef2ff;
+                font-weight: 700;
+            }
+            .tabla-blueprint .celda-tipo {
+                font-weight: 600;
+                text-align: left;
+                padding-left: 12px;
+            }
+            /* Responsive: reducir padding en móviles */
+            @media (max-width: 600px) {
+                .tabla-blueprint th,
+                .tabla-blueprint td {
+                    padding: 4px 2px;
+                    font-size: 0.65rem;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    }
 
-
-
-
-
-
-
-/* =====================================================
-   RENDER BLUEPRINT
-===================================================== */
-
-
-function renderBlueprint(){
-
-
-
+    // --- 2. Actualizar datos antes de pintar ---
     actualizarBlueprint();
 
+    // --- 3. Preparar variables para el render ---
+    const total = SPAE.blueprint.preguntasMCQ + SPAE.blueprint.casos + SPAE.blueprint.abiertas;
+    const matriz = SPAE.blueprint.matrizNivelTipo || {};
+    const niveles = ["RECORDAR", "COMPRENDER", "APLICAR", "ANALIZAR", "EVALUAR", "CREAR"];
+    const tipos = ["opcion_multiple", "caso_analisis", "caso_aplicacion", "abierta"];
 
+    const nombresTipos = {
+        "opcion_multiple": "Opción Múltiple",
+        "caso_analisis": "Caso de Análisis",
+        "caso_aplicacion": "Caso de Aplicación",
+        "abierta": "Pregunta Abierta"
+    };
 
+    // --- 4. Construir la tabla HTML ---
+    let tablaHTML = `
+        <h3 style="margin-top: 24px;">📊 Matriz de Alineamiento (Tipo vs. Nivel Cognitivo)</h3>
+        <p style="color: #6b7280; font-size: 0.9rem; margin-top: -8px;">
+            Distribución de preguntas según taxonomía de Bloom.
+        </p>
+        <div style="overflow-x: auto;">
+        <table class="tabla-blueprint">
+            <thead>
+                <tr>
+                    <th>Tipo de Pregunta</th>
+    `;
 
-    const total =
+    // Cabecera de niveles
+    niveles.forEach(n => {
+        tablaHTML += `<th>${n}</th>`;
+    });
+    tablaHTML += `<th>Total</th></tr></thead><tbody>`;
 
-    SPAE.blueprint.preguntasMCQ
+    // Filas por tipo
+    let totalGeneral = 0;
+    tipos.forEach(tipo => {
+        const fila = matriz[tipo] || {};
+        let sumFila = 0;
 
-    +
+        tablaHTML += `<tr>`;
+        tablaHTML += `<td class="celda-tipo">${nombresTipos[tipo] || tipo}</td>`;
 
-    SPAE.blueprint.casos
+        niveles.forEach(n => {
+            const valor = fila[n] || 0;
+            sumFila += valor;
+            tablaHTML += `<td>${valor}</td>`;
+        });
 
-    +
+        totalGeneral += sumFila;
+        tablaHTML += `<td><strong>${sumFila}</strong></td>`;
+        tablaHTML += `</tr>`;
+    });
 
-    SPAE.blueprint.abiertas;
+    // Fila de totales por nivel
+    tablaHTML += `<tr class="fila-total">`;
+    tablaHTML += `<td class="celda-tipo">TOTALES</td>`;
 
+    niveles.forEach(n => {
+        let sumCol = 0;
+        tipos.forEach(t => {
+            sumCol += (matriz[t]?.[n] || 0);
+        });
+        tablaHTML += `<td>${sumCol}</td>`;
+    });
 
+    tablaHTML += `<td>${totalGeneral}</td>`;
+    tablaHTML += `</tr>`;
 
+    tablaHTML += `</tbody></table></div>`;
 
-
-
-
+    // --- 5. Renderizar el módulo completo (igual que el original, pero con la tabla añadida) ---
     return `
-
-
-
-<section class="card">
-
-
-
-<h2>
-
-4. Blueprint de evaluación
-
-</h2>
-
-
-
-
-<p>
-
-Distribución automática de preguntas registradas.
-
-</p>
-
-
-
-
-<hr>
-
-
-
-
-
-<h3>
-
-Estructura actual
-
-</h3>
-
-
-
-
-
-
-<div class="summary">
-
-
-
-<p>
-
-<strong>
-
-Opción múltiple:
-
-</strong>
-
-
-${SPAE.blueprint.preguntasMCQ}
-
-</p>
-
-
-
-
-
-<p>
-
-<strong>
-
-Casos de análisis / aplicación:
-
-</strong>
-
-
-${SPAE.blueprint.casos}
-
-</p>
-
-
-
-
-
-<p>
-
-<strong>
-
-Preguntas abiertas:
-
-</strong>
-
-
-${SPAE.blueprint.abiertas}
-
-</p>
-
-
-
-
-
-
-<p>
-
-<strong>
-
-Total preguntas:
-
-</strong>
-
-
-${total}
-
-</p>
-
-
-
-</div>
-
-
-
-
-
-
-
-
-<br>
-
-
-
-
-<button
-
-onclick="actualizarBlueprint(); abrirModulo('blueprint')"
-
-class="primary-button"
-
->
-
-Actualizar Blueprint
-
-</button>
-
-
-
-
-
-
-
-<div id="mensajeBlueprint">
-
-
-</div>
-
-
-
-
-
-
-</section>
-
-
-
-`;
-
-
-
+        <section class="card">
+            <h2>4. Blueprint de evaluación</h2>
+            <p>Distribución automática de preguntas registradas.</p>
+            <hr>
+
+            <h3>📋 Estructura actual del examen</h3>
+            <div class="summary">
+                <p><strong>Opción múltiple:</strong> ${SPAE.blueprint.preguntasMCQ}</p>
+                <p><strong>Casos de análisis / aplicación:</strong> ${SPAE.blueprint.casos}</p>
+                <p><strong>Preguntas abiertas:</strong> ${SPAE.blueprint.abiertas}</p>
+                <p><strong>Total preguntas:</strong> ${total}</p>
+            </div>
+
+            <hr>
+            ${tablaHTML}
+
+            <br>
+            <button onclick="actualizarBlueprint(); abrirModulo('blueprint')" class="primary-button">
+                🔄 Actualizar Blueprint
+            </button>
+
+            <div id="mensajeBlueprint" class="notice" style="margin-top: 16px;"></div>
+        </section>
+    `;
 }
+
+// Mensaje en consola para confirmar carga
+console.log("✅ Módulo Blueprint Avanzado cargado correctamente.");
 /* =====================================================
 
 SPAE MVP
